@@ -1,4 +1,4 @@
-name:                   cereal
+name:                   fpco-cereal
 version:                0.5.1.0
 license:                BSD3
 license-file:           LICENSE
@@ -71,7 +71,7 @@ test-suite test-cereal
                                 test-framework-quickcheck2,
                                 HUnit,
                                 test-framework-hunit,
-                                cereal
+                                fpco-cereal
 
         main-is:                Main.hs
         other-modules:          RoundTrip
