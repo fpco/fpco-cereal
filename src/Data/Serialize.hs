@@ -119,7 +119,7 @@ decode = runGet get
 
 -- | Decode a value from a lazy ByteString, reconstructing the original
 -- structure.
-{-# DEPRECATED decodeEof "Use `decodeEof' instead, or `runGetLazy get' if you want to throw away leftovers." #-}
+{-# DEPRECATED decodeLazy "Use `decodeEofLazy' instead, or `runGetLazy get' if you want to throw away leftovers." #-}
 decodeLazy :: Serialize a => L.ByteString -> Either String a
 decodeLazy  = runGetLazy get
 
